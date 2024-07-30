@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: url(./assets/imagenes/fondo.jpg) 50% 0 fixed ;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#header-2{
+    background-image: url(./assets/imagenes/historia-programacion.jpg);
+    position: relative;
+    height: 70vh;
+}
+#header-3{
+    background-image: url(./assets/imagenes/img2.jpg);
+    position: relative;
+    height: 70vh;
+}
+
+.titulo-historia{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+   }
+
+
+header{
+    background: url(./assets/imagenes/fondo.jpg) 50% 0 fixed ;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   }
+#header-2{
+       background-image: url(./assets/imagenes/historia-programacion.jpg);
+       position: relative;
+       height: 70vh;
+   }
+#header-3{
+       background-image: url(./assets/imagenes/img2.jpg);
+       position: relative;
+       height: 70vh;
+   }
+ .fondo-azul{
+       background: rgba(47, 54, 69,0.7);
+       width: 100%;
+       display: flex;
+       align-items: center;
+       height: 100%;
+       justify-content: center;
+   }
+.espacio-titulo{
+       padding: 80px 10px;
+   }
+ h1{
+       font-weight: 400;
+       font-size: 70px; 
+       color: #eeeeee;
+   }
+
+h2{
+       font-size: 50px ; 
+       font-weight: 500;
+       text-align: center;
+       margin-top: 60px;
+   }
+.titulo-principal{
+    text-align: center;
+   }
+   
+.cont-padre{
+       margin: 100px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+   }
+   
+.contenido {
+    width: 450px;
+    height: 500px;
+    gap: 40px;
+    background-color: var(--colorLight);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   }
+   
+.desc-card{
+   width: 90%;
+   text-align: center;
+   height: 30px;
+   color:#181D31;
+   }
+   
+.img-cont{
+    width: 100%;
+    margin: 0px;
+   
+   }
+   
+.botones{
+      padding: 10px ;
+      background-color: #2F3645;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      width: 80%;
+      margin-bottom: 20px;
+   }
+   
+.botones:active{
+       
+       transform: translate(3px, 2px);
+   }
+   
+.logo{
+    height: 80px;
+}
+
+footer{
+    background: #2F3645;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+    color: white;
+    align-items: center;
+}
+
+.footer-princ{
+ display: flex;
+ justify-content: space-between;
+ width:300px;
+ height: 60px;
+ 
+}
+
+.titulo-foot{
+    font-size: 20px;
+    margin-left: 65px;
+    
+}
+
+.pag-hist{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:80px 50px;
+    gap: 20px;    
+}
+
+
+
+/* ----------     ponerAPrueba     ------------*/
+.juego{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cajas{
+    display: flex;
+    flex-direction: row;
+}
+.caja{
+    width: 275px;
+    height: 400px;
+    display: flex;
+    border: 2px solid black;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.caja:hover{
+    background-color: #1d1d1d;
+    
+}
+.caja:hover>p{
+    color: var(--colorLight);
+}
+#cajaimagenes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 40px;
+}
+#imagen1,#imagen2,#imagen3{
+    width: 275px;
+    height: 400px;
+}
+.reinicio{
+    display: flex;
+    margin: auto;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 0px;
+    background-color: var(--colorDark);
+    color: var(--colorLight);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.dark{
+    color: #181D31;  
+    text-shadow: 2px 2px gray, 3px 3px #E6DDC4;
+}
